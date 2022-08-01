@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image:linear-gradient(to top, rgb(108,98,231),rgb(166,103,233));
+}
+.overall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #ffffff;
+    width: 70%;
+    height: 70vh;
+    position: relative;
+    top: 100px;
+    border-radius: 20px;
+   
+}
+.faq{
+    position: relative;
+    bottom: 150px;
+    left: 40px;
+}
+.img1{
+    width: 62%;
+    position: absolute;
+    left: -240px;
+}
+.img2{
+    width: 40%;
+    position: absolute;
+    left:-20px;
+}
+.img3{
+    position: absolute;
+    bottom: 90px;
+    left: -55px;
+    width: 15%;
+}
+.lastly{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
+    position: absolute;
+    right: 50px;
+    top: 100px;
+}
+h3{
+    color: gray;
+    font-size: 15px;
+}
+h4{
+    font-size: 13px;
+    display: none;
+    
+}
+.member{
+    font-size: 13px;
+    display: none;
+    
+}
+.perform{
+    -moz-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+}
